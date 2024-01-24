@@ -26,6 +26,8 @@ function App() {
             <li>Age: {featuredPup.age}</li>
             <li>Email: {featuredPup.email}</li>
             <li>Owner Id: {featuredPup.ownerId}</li>
+            <li>Is Cute: {featuredPup.isCute + " "}</li>
+            <li>Tricks: {featuredPup.tricks + [""]}</li>
           </ul>
         </div>
       )}
